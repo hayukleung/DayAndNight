@@ -1,0 +1,26 @@
+<resources>
+
+  <!--Notice: 这里配置的属性需要采用引用资源，不能硬编码颜色值，否则 Java 代码里动态获取主题颜色会失败-->
+
+  <!--白天主题-->
+  <!--android:Theme.Light-->
+  <style name="DayTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimaryDay</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDarkDay</item>
+    <item name="colorAccent">@color/colorAccentDay</item>
+    <item name="dnTitleBackground">@color/colorPrimaryDarkDay</item>
+    <item name="dnBackground">@color/backgroundDay</item>
+    <item name="dnTextColor">@color/textColorDay</item>
+  </style>
+
+  <!--夜间主题-->
+  <style name="NightTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimaryNight</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDarkNight</item>
+    <item name="colorAccent">@color/colorAccentNight</item>
+    <item name="dnTitleBackground">@color/colorPrimaryDarkNight</item>
+    <item name="dnBackground">@color/backgroundNight</item>
+    <item name="dnTextColor">@color/textColorNight</item>
+  </style>
+
+</resources>

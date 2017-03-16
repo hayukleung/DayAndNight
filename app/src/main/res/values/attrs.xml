@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--dnTitleBackground - useless-->
+  <attr name="dnTitleBackground" format="color" />
+  <attr name="dnBackground" format="color" />
+  <attr name="dnTextColor" format="color" />
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--Day-->
+  <color name="colorPrimaryDay">#FF3F51B5</color>
+  <color name="colorPrimaryDarkDay">#FF303F9F</color>
+  <color name="colorAccentDay">#FFFF4081</color>
+  <color name="backgroundDay">#FFFFFFFF</color>
+  <color name="textColorDay">#FF000000</color>
+
+  <!--Night-->
+  <color name="colorPrimaryNight">#FF3F3F3F</color>
+  <color name="colorPrimaryDarkNight">#FF3A3A3A</color>
+  <color name="colorAccentNight">#FF868686</color>
+  <color name="backgroundNight">#FF3F3F3F</color>
+  <color name="textColorNight">#FF8A9599</color>
+</resources>

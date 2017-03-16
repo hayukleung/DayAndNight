@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/dnBackground"
+    >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      >
+    <CheckBox
+        android:id="@+id/cb_js"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="简书 Scheme"
+        android:textColor="?attr/dnTextColor"
+        />
+    <CheckBox
+        android:id="@+id/cb_zh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="知乎 Scheme"
+        android:textColor="?attr/dnTextColor"
+        />
+  </LinearLayout>
+</FrameLayout>
